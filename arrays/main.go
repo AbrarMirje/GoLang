@@ -17,6 +17,7 @@ func main() {
 	fmt.Println("Colors are:", colors)
 
 	// Another way to initialize and declare arrays at same line
+	// [...] -> is the array inferred array where we dont need to define the size of an arrya explicitely
 	var fruits = [...]string{"Apple", "Banana", "Cherry", "Date", "Watermelon"}
 	fmt.Println("Fruits are:", fruits)
 
